@@ -1,12 +1,11 @@
-n=int(input("enter the value of 'n':"))
-a=0
-b=1
-sum=0
-count=1
-print("fibnocci series:", end=" ")
-while(count<=n):
-    print(sum,end=" ")
-    count+=1
-    a=b
-    b=sum
-    sum=a+b
+# Python program to find largest
+# number in a list
+
+# list of numbers
+list1 = [10, 20, 4, 45, 99]
+
+# sorting the list
+list1.sort()
+
+# printing the last element
+print("Largest element is:", list1[-1])
